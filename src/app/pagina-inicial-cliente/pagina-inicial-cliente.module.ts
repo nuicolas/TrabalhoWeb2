@@ -1,12 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { PaginaInicialClienteComponent } from './pagina-inicial-cliente';
+import { PaginaInicialClienteService } from './service';
+
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    PaginaInicialClienteComponent,
+  ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [
+    PaginaInicialClienteComponent,
+  ],
+  providers: [
+    PaginaInicialClienteService
+  ],
 })
-export class PaginaInicialCLienteModule { }
+export class PaginaInicialClienteModule { }
