@@ -1,4 +1,4 @@
-import { PaginaInicialClienteService } from './../service/pagina-inicial-cliente.service';
+import { PaginaInicialClienteService } from '../service/pagina-inicial-cliente.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
