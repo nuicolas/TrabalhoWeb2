@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { PaginaInicialClienteModule } from '../modules/pagina-inicial-cliente';
+import { AutoCadastroModule } from 'src/modules/auto-cadastro';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { PaginaInicialClienteModule } from '../modules/pagina-inicial-cliente';
   ],
   imports: [
     BrowserModule,
-    PaginaInicialClienteModule
+    PaginaInicialClienteModule,
+    AutoCadastroModule
   ],
   providers: [],
   bootstrap: [AppComponent]
